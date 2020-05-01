@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}
+
+#title {
+    font-family: 'Sedgwick Ave Display', cursive;
+    max-width: 50%;
+    height: 23rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 0.8rem solid white;
+    border-radius: 3rem;
+    border-style: dotted;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+
+h2 {
+    color: white;
+    background: -webkit-linear-gradient(30deg, white, #0632c2 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 6.7rem;
+    margin-top: 2.5rem;
+}
+
+#giphyResults {
+    background: black;
+    height: 40rem;
+    margin-top: 3rem;
+}
+
+
+@media screen and (max-width: 1199px) {
+    img {
+        width: 90%;
+    }
+
+    #title > h2 {
+        font-size: 5.5rem;
+        max-height: 100%;
+        margin-top: 2rem;
+    }
+
+    #title {
+    height: 19rem;
+    border: 0.8rem dotted white;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #title > h2 {
+        font-size: 3.5rem;
+        margin-top: 2rem;
+    }
+
+    #title {
+    height: 14rem;
+    border: 0.6rem dotted white;
+    margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #title > h2 {
+        font-size: 2.8rem;
+        margin-top: 1.5rem;
+    }
+
+    #title {
+    height: 10.5rem;
+    border: 0.5rem dotted white;
+    margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #title > h2 {
+        font-size: 2.8rem;
+        margin-top: 1.5rem;
+    }
+
+    #title {
+    max-width: 99%;
+    height: 8rem;
+    border: 0.5rem dotted white;
+    margin-bottom: 1.5rem;
+    }
+}
+
+input[type=text] {
+    width: 1rem;
+  }
