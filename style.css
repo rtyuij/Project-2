@@ -97,3 +97,23 @@ h2 {
     margin-bottom: 1.5rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #title > h2 {
+        font-size: 2.7rem;
+        margin-top: 1.5rem;
+    }
+
+    #title {
+    max-width: 99%;
+    height: 8rem;
+    border: 0.5rem dotted white;
+    margin-bottom: 1.5rem;
+    }
+}
