@@ -15,7 +15,7 @@ $('#inputForm').keypress(function(event){
 
 function getData() {
     let input = $('#inputForm').val();
-    let giphyData = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=zeRT27Agp97SJNlbCo7MXVPEHOahLxM5&limit=25");
+    let giphyData = $.get("https://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=zeRT27Agp97SJNlbCo7MXVPEHOahLxM5&limit=25");
     giphyData.done(function (response) {
         console.log("your Giphy data is here", response);
         let giphyGifs = response.data;
